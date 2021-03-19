@@ -3,23 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FADBA4E426049969008F672C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4E326049969008F672C /* AlertView.swift */; };
+		FADBA4E826049CCA008F672C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4E726049CCA008F672C /* CardView.swift */; };
+		FADBA4ED26049EA3008F672C /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4EC26049EA3008F672C /* ProgressView.swift */; };
+		FADBA4F12604A221008F672C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4F02604A221008F672C /* State.swift */; };
+		FADBA4F72604A45E008F672C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADBA4F62604A45E008F672C /* README.md */; };
 		FAE87F8C2603774D005C5787 /* JokeFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */; };
 		FAE87F8E2603774D005C5787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87F8D2603774D005C5787 /* ContentView.swift */; };
 		FAE87F902603774D005C5787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE87F8F2603774D005C5787 /* Assets.xcassets */; };
 		FAE87F932603774D005C5787 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE87F922603774D005C5787 /* Preview Assets.xcassets */; };
+		FAE87F9C26037766005C5787 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87F9B26037766005C5787 /* Joke.swift */; };
+		FAE87FA4260377E5005C5787 /* JokeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87FA3260377E5005C5787 /* JokeFetcher.swift */; };
+		FAE87FA826037942005C5787 /* CombineExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = FAE87FA726037942005C5787 /* CombineExtensions */; };
+		FAE87FAB260382CA005C5787 /* URLSession-Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87FAA260382CA005C5787 /* URLSession-Resource.swift */; };
+		FAE87FAF260384F9005C5787 /* URLRequest-Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87FAE260384F9005C5787 /* URLRequest-Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FADBA4E326049969008F672C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		FADBA4E726049CCA008F672C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FADBA4EC26049EA3008F672C /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		FADBA4F02604A221008F672C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		FADBA4F62604A45E008F672C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAE87F882603774D005C5787 /* JokeFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcherApp.swift; sourceTree = "<group>"; };
 		FAE87F8D2603774D005C5787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAE87F8F2603774D005C5787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE87F922603774D005C5787 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAE87F942603774D005C5787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE87F9B26037766005C5787 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		FAE87FA3260377E5005C5787 /* JokeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcher.swift; sourceTree = "<group>"; };
+		FAE87FAA260382CA005C5787 /* URLSession-Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession-Resource.swift"; sourceTree = "<group>"; };
+		FAE87FAE260384F9005C5787 /* URLRequest-Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest-Joke.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,15 +46,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE87FA826037942005C5787 /* CombineExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FADBA4F32604A256008F672C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				FADBA4EC26049EA3008F672C /* ProgressView.swift */,
+				FADBA4E726049CCA008F672C /* CardView.swift */,
+				FADBA4E326049969008F672C /* AlertView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		FAE87F7F2603774D005C5787 = {
 			isa = PBXGroup;
 			children = (
+				FADBA4F62604A45E008F672C /* README.md */,
 				FAE87F8A2603774D005C5787 /* JokeFetcher */,
 				FAE87F892603774D005C5787 /* Products */,
 			);
@@ -52,11 +83,13 @@
 		FAE87F8A2603774D005C5787 /* JokeFetcher */ = {
 			isa = PBXGroup;
 			children = (
-				FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */,
+				FAE87F9B26037766005C5787 /* Joke.swift */,
+				FADBA4F02604A221008F672C /* State.swift */,
+				FAE87FA3260377E5005C5787 /* JokeFetcher.swift */,
 				FAE87F8D2603774D005C5787 /* ContentView.swift */,
-				FAE87F8F2603774D005C5787 /* Assets.xcassets */,
-				FAE87F942603774D005C5787 /* Info.plist */,
-				FAE87F912603774D005C5787 /* Preview Content */,
+				FADBA4F32604A256008F672C /* Subviews */,
+				FAE87FB226039841005C5787 /* Extensions */,
+				FAE87F9E26037774005C5787 /* Supporting files */,
 			);
 			path = JokeFetcher;
 			sourceTree = "<group>";
@@ -67,6 +100,26 @@
 				FAE87F922603774D005C5787 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAE87F9E26037774005C5787 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */,
+				FAE87F8F2603774D005C5787 /* Assets.xcassets */,
+				FAE87F942603774D005C5787 /* Info.plist */,
+				FAE87F912603774D005C5787 /* Preview Content */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		FAE87FB226039841005C5787 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAE87FAA260382CA005C5787 /* URLSession-Resource.swift */,
+				FAE87FAE260384F9005C5787 /* URLRequest-Joke.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +138,9 @@
 			dependencies = (
 			);
 			name = JokeFetcher;
+			packageProductDependencies = (
+				FAE87FA726037942005C5787 /* CombineExtensions */,
+			);
 			productName = JokeFetcher;
 			productReference = FAE87F882603774D005C5787 /* JokeFetcher.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +168,9 @@
 				Base,
 			);
 			mainGroup = FAE87F7F2603774D005C5787;
+			packageReferences = (
+				FAE87FA626037942005C5787 /* XCRemoteSwiftPackageReference "CombineExtensions" */,
+			);
 			productRefGroup = FAE87F892603774D005C5787 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADBA4F72604A45E008F672C /* README.md in Resources */,
 				FAE87F932603774D005C5787 /* Preview Assets.xcassets in Resources */,
 				FAE87F902603774D005C5787 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +198,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE87FAF260384F9005C5787 /* URLRequest-Joke.swift in Sources */,
 				FAE87F8E2603774D005C5787 /* ContentView.swift in Sources */,
+				FADBA4E426049969008F672C /* AlertView.swift in Sources */,
+				FADBA4F12604A221008F672C /* State.swift in Sources */,
 				FAE87F8C2603774D005C5787 /* JokeFetcherApp.swift in Sources */,
+				FAE87FAB260382CA005C5787 /* URLSession-Resource.swift in Sources */,
+				FAE87FA4260377E5005C5787 /* JokeFetcher.swift in Sources */,
+				FADBA4E826049CCA008F672C /* CardView.swift in Sources */,
+				FAE87F9C26037766005C5787 /* Joke.swift in Sources */,
+				FADBA4ED26049EA3008F672C /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +336,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JokeFetcher/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JokeFetcher/Supporting files/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = JokeFetcher/Info.plist;
+				INFOPLIST_FILE = "JokeFetcher/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,9 +358,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"JokeFetcher/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"JokeFetcher/Supporting files/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = JokeFetcher/Info.plist;
+				INFOPLIST_FILE = "JokeFetcher/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +396,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAE87FA626037942005C5787 /* XCRemoteSwiftPackageReference "CombineExtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tonezone6/CombineExtensions.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAE87FA726037942005C5787 /* CombineExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE87FA626037942005C5787 /* XCRemoteSwiftPackageReference "CombineExtensions" */;
+			productName = CombineExtensions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAE87F802603774D005C5787 /* Project object */;
 }

@@ -1,16 +1,23 @@
 //
 //  ContentView.swift
-//  JokeFetcher
-//
-//  Created by Alex Stratu on 18.03.2021.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var fetcher = JokeFetcher()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            switch fetcher.state {
+            case .progress:
+                ProgressView()
+            case .success(let result):
+                CardView(text: result.joke)
+            case .failure(let error):
+                AlertView(message: error.description)
+            }
+        }
     }
 }
 
