@@ -6,7 +6,7 @@ import Combine
 import Foundation
 
 final class JokeFetcher: ObservableObject {
-    @Published var state: State = .progress
+    @Published var state: LoadingState = .progress
     
     var subscription: Cancellable?
     

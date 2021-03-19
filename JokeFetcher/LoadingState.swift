@@ -1,8 +1,8 @@
 //
-//  State.swift
+//  LoadingState.swift
 //
 
-enum State {
+enum LoadingState {
     case progress
     case success(Joke)
     case failure(Joke.Error)

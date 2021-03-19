@@ -10,8 +10,8 @@
 		FADBA4E426049969008F672C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4E326049969008F672C /* AlertView.swift */; };
 		FADBA4E826049CCA008F672C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4E726049CCA008F672C /* CardView.swift */; };
 		FADBA4ED26049EA3008F672C /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4EC26049EA3008F672C /* ProgressView.swift */; };
-		FADBA4F12604A221008F672C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4F02604A221008F672C /* State.swift */; };
 		FADBA4F72604A45E008F672C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FADBA4F62604A45E008F672C /* README.md */; };
+		FADBA4FC2604A540008F672C /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBA4FB2604A540008F672C /* LoadingState.swift */; };
 		FAE87F8C2603774D005C5787 /* JokeFetcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */; };
 		FAE87F8E2603774D005C5787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE87F8D2603774D005C5787 /* ContentView.swift */; };
 		FAE87F902603774D005C5787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE87F8F2603774D005C5787 /* Assets.xcassets */; };
@@ -27,8 +27,8 @@
 		FADBA4E326049969008F672C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		FADBA4E726049CCA008F672C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FADBA4EC26049EA3008F672C /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
-		FADBA4F02604A221008F672C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		FADBA4F62604A45E008F672C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FADBA4FB2604A540008F672C /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		FAE87F882603774D005C5787 /* JokeFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE87F8B2603774D005C5787 /* JokeFetcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcherApp.swift; sourceTree = "<group>"; };
 		FAE87F8D2603774D005C5787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE87F9B26037766005C5787 /* Joke.swift */,
-				FADBA4F02604A221008F672C /* State.swift */,
+				FADBA4FB2604A540008F672C /* LoadingState.swift */,
 				FAE87FA3260377E5005C5787 /* JokeFetcher.swift */,
 				FAE87F8D2603774D005C5787 /* ContentView.swift */,
 				FADBA4F32604A256008F672C /* Subviews */,
@@ -200,8 +200,8 @@
 			files = (
 				FAE87FAF260384F9005C5787 /* URLRequest-Joke.swift in Sources */,
 				FAE87F8E2603774D005C5787 /* ContentView.swift in Sources */,
+				FADBA4FC2604A540008F672C /* LoadingState.swift in Sources */,
 				FADBA4E426049969008F672C /* AlertView.swift in Sources */,
-				FADBA4F12604A221008F672C /* State.swift in Sources */,
 				FAE87F8C2603774D005C5787 /* JokeFetcherApp.swift in Sources */,
 				FAE87FAB260382CA005C5787 /* URLSession-Resource.swift in Sources */,
 				FAE87FA4260377E5005C5787 /* JokeFetcher.swift in Sources */,

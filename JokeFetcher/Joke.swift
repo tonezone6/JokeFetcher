@@ -25,9 +25,12 @@ extension Joke {
             switch self {
             case .failure(let error):
                 return error.message
-            case .network: return "Request failed"
-            case .parsing: return "Failed parsing response from server"
-            case .unknown: return "An unknown error occurred"
+            case .network:
+                return "Request failed"
+            case .parsing:
+                return "Failed parsing response from server"
+            case .unknown:
+                return "An unknown error occurred"
             }
         }
     }
